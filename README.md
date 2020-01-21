@@ -38,3 +38,12 @@
   ```
    CUDA_VISIBLE_DEVICES=0 python SPEC_CGAN_main.py --dataset_dir=spec2diff --phase=test --which_direction=AtoB
   ``` 
+## Reference
+<ul>
+  <li> Muhammad, S., Dailey, M. N., Farooq, M., Majeed, M. F., and Ekpanyapong, M. (2019). Spec-Net
+and Spec-CGAN: Deep learning models for specularity removal from faces. In Journal of Imag
+& Computer Vision, page https://doi.org/10.1016/j.imavis.2019.11.001.</li>
+  <li>Zhu, J.-Y., Park, T., Isola, P., and Efros, A. A. (2017). Unpaired image-to-image translation using
+cycle-consistent adversarial networks. In Proceedings of the IEEE International Conference on
+Computer Vision (CVPR), pages 2223–2232</li>
+</ul>
