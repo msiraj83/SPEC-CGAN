@@ -1,4 +1,4 @@
-# SPEC-CGAN
+# Spec-Face and SPEC-CGAN
 The human face plays a very important role in this world.Sometimes, faces may not be captured properly, due to high specularity or low illumination. If so, we may not recognize them accurately later. If we could convert low-quality images to high-quality images prior to storage, we may be better prepared to recognize them accurately later in applications such as
 face detection or recognition. To perform this conversion through machine learning models, we need real-world training datasets that contain faces corrupted by specularity, along with ground truth diffuse faces. Unfortunately, today, there is no real-world face dataset that contains faces with specularity and corresponding ground truth diffuse images.
 
