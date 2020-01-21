@@ -1,10 +1,12 @@
 # SPEC-CGAN
-We apply the Cycle GAN concept to the problem of removing specularity from images, resulting in
-the Spec-CGAN model shown in Figure 3.11. S and D represent sets of 256 × 256 images with a
-specific set of specularity images S and diffuse images D. D S : S 7→ {0, 1} and D D : D 7→ {0, 1}
-represent discriminators for S and D. G : S 7→ D and F : D 7→ S are forward and backward
-mapping functions. For G, Spec-CGAN uses ResNet with 9 residual blocks, because the image size
-is 256 × 256.
+The human face plays a very important role in this world.Sometimes, faces may not be captured properly, due to high specularity or low illumination. If so, we may not recognize them accurately later. If we could convert low-quality images to high-quality images prior to storage, we may be better prepared to recognize them accurately later in applications such as
+face detection or recognition. To perform this conversion through machine learning models, we need real-world training datasets that contain faces corrupted by specularity, along with ground truth diffuse faces. Unfortunately, today, there is no real-world face dataset that contains faces with specularity and corresponding ground truth diffuse images.
+
+Therefore, in this paper, one of the focal points is creating datasets that contain faces with specularity and corresponding ground truth diffuse images. I have created three datasets. The Spec-Face dataset consists of face images with specularity and corresponding ground truth diffuse images.
+
+I also introduce two deep learning models, namely Spec-Net (Will be uppload soon) and Spec-
+CGAN, to remove specularity from face images. Spec-CGAN is the first use of GANs for removing specularity from images, specifically face images. I test different variations of the GAN approach namely Simple-GAN, Spec-CGAN, Cycle-GAN-SSIM, Cycle-GAN-and-SSIM, and Cycle-GAN-Per-loss, and I find that Spec-CGAN performs better than other variations and consider it for further evaluation.
+
 <ul>
   <li> The dataset (Spec-Face) avalible free only for research purpose and not for commercial use </li>
   <li> No one is allowed to edit the dataset </li>
