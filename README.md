@@ -1,12 +1,13 @@
 # SPEC-CGAN
-# Prerequisites 
+## Prerequisites 
 <ul>
   <li>tensorflow r1.1 </li>
   <li>numpy 1.11.0 </li>
   <li>scipy 0.17.0 </li>
   <li>pillow 3.3.0 </li>
 </ul>
-<h2> Installation </h2>
+
+## Installation 
 <ul>
   <li> Install tensorflow from https://github.com/msiraj83/SPEC-CGAN.git </li>
   <li> Clone this repo: </li> 
@@ -16,7 +17,7 @@
   git clone https://github.com/msiraj83/SPEC-CGAN.git
   cd SPEC-CGAN
 ```
-# Train
+## Train
 <ul>
   <li> Download a dataset (e.g. zebra and horse images from ImageNet): </li>
   
@@ -31,10 +32,9 @@
    tensorboard --logdir=./logs
   ```
 </ul>
-# Test the model:
+
+## Test the model
 
   ```
    CUDA_VISIBLE_DEVICES=0 python main.py --dataset_dir=spec2diff2805 --phase=test --which_direction=AtoB
   ``` 
-  
-
