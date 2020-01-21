@@ -24,7 +24,7 @@
   <li> Train a model: </li>
   
   ```
-   CUDA_VISIBLE_DEVICES=0 python main.py --dataset_dir=spec2diff2805
+   CUDA_VISIBLE_DEVICES=0 python SPEC_CGAN_main.py --dataset_dir=spec2diff
   ``` 
   <li> Use tensorboard to visualize the training details: </li> 
   
@@ -36,5 +36,5 @@
 ## Test the model
 
   ```
-   CUDA_VISIBLE_DEVICES=0 python main.py --dataset_dir=spec2diff2805 --phase=test --which_direction=AtoB
+   CUDA_VISIBLE_DEVICES=0 python SPEC_CGAN_main.py --dataset_dir=spec2diff --phase=test --which_direction=AtoB
   ``` 
