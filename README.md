@@ -1,4 +1,10 @@
 # SPEC-CGAN
+We apply the Cycle GAN concept to the problem of removing specularity from images, resulting in
+the Spec-CGAN model shown in Figure 3.11. S and D represent sets of 256 × 256 images with a
+specific set of specularity images S and diffuse images D. D S : S 7→ {0, 1} and D D : D 7→ {0, 1}
+represent discriminators for S and D. G : S 7→ D and F : D 7→ S are forward and backward
+mapping functions. For G, Spec-CGAN uses ResNet with 9 residual blocks, because the image size
+is 256 × 256.
 ## Prerequisites 
 <ul>
   <li>tensorflow r1.1 </li>
@@ -54,7 +60,4 @@ Please cite only the faces with following names in your paper.
   <li> Muhammad, S., Dailey, M. N., Farooq, M., Majeed, M. F., and Ekpanyapong, M. (2019). Spec-Net
 and Spec-CGAN: Deep learning models for specularity removal from faces. In Journal of Imag
 & Computer Vision, page https://doi.org/10.1016/j.imavis.2019.11.001.</li>
-  <li>Zhu, J.-Y., Park, T., Isola, P., and Efros, A. A. (2017). Unpaired image-to-image translation using
-cycle-consistent adversarial networks. In Proceedings of the IEEE International Conference on
-Computer Vision (CVPR), pages 2223–2232</li>
 </ul>
