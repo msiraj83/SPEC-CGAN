@@ -38,6 +38,16 @@
   ```
    CUDA_VISIBLE_DEVICES=0 python SPEC_CGAN_main.py --dataset_dir=spec2diff --phase=test --which_direction=AtoB
   ``` 
+  
+## Citetation of face from testA
+Please cite only the faces with following names in your paper.
+<ul>
+  <li>Chaphan_*.png </li>
+  <li>Siraj_*.png </li>
+  <li>petch_*.png</li>
+  <li>st119573_*.png </li>
+  <li>st119818_*.png </li>
+</ul>
 ## Reference
 <ul>
   <li> Muhammad, S., Dailey, M. N., Farooq, M., Majeed, M. F., and Ekpanyapong, M. (2019). Spec-Net
