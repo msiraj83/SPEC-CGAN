@@ -10,6 +10,11 @@ is 256 × 256.
   <li> No one is allowed to edit the dataset </li>
 </ul>
 
+## Qualitative Results
+<p align="center">
+  <img src="./img/SPEC_CGAN_Quali_result.png"  title="hover text">
+</p>
+
 ## Prerequisites 
 <ul>
   <li>tensorflow r1.1 </li>
