@@ -25,7 +25,7 @@ is 256 × 256.
 
 ## Installation 
 <ul>
-  <li> Install tensorflow from https://github.com/msiraj83/SPEC-CGAN.git </li>
+  <li> Install tensorflow from https://github.com/tensorflow/tensorflow </li>
   <li> Clone this repo: </li> 
 </ul> 
 
