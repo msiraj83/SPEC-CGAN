@@ -5,6 +5,11 @@ specific set of specularity images S and diffuse images D. D S : S 7→ {0, 1} a
 represent discriminators for S and D. G : S 7→ D and F : D 7→ S are forward and backward
 mapping functions. For G, Spec-CGAN uses ResNet with 9 residual blocks, because the image size
 is 256 × 256.
+<ul>
+  <li> The dataset (Spec-Face) avalible free only for research purpose and not for commercial use </li>
+  <li> No one is allowed to edit the dataset </li>
+</ul>
+
 ## Prerequisites 
 <ul>
   <li>tensorflow r1.1 </li>
@@ -25,7 +30,7 @@ is 256 × 256.
 ```
 ## Train
 <ul>
-  <li> Download a dataset (e.g. zebra and horse images from ImageNet): </li>
+  <li> Download a dataset (The google drive link will provide soon): </li>
   
   <li> Train a model: </li>
   
@@ -40,10 +45,14 @@ is 256 × 256.
 </ul>
 
 ## Test the model
-
-  ```
+<ul>
+  <li> Download the pre-trained model from the following google drive links and place it into SPEC-CGAN directory</li>
+  <li> Run the follwoing command </li>
+  
+   ```
    CUDA_VISIBLE_DEVICES=0 python SPEC_CGAN_main.py --dataset_dir=spec2diff --phase=test --which_direction=AtoB
-  ``` 
+  ```  
+</ul>
   
 ## Citetation of face from testA
 Please cite only the faces with following names in your paper.
