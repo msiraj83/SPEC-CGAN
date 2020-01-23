@@ -54,6 +54,11 @@ CGAN, to remove specularity from face images. Spec-CGAN is the first use of GANs
 ## Test the model
 <ul>
   <li> Download the pre-trained model from the following google drive links and place it into SPEC-CGAN directory</li>
+  
+  ```
+   https://drive.google.com/drive/folders/15zJ5RCD_03FXgxQXYJkyeATBsYvnAawR
+  ```
+  
   <li> Run the follwoing command </li>
   
    ```
