@@ -52,7 +52,7 @@ CGAN, to remove specularity from face images. Spec-CGAN is the first use of GANs
 </ul>
 
 ## Test the model
-<ul>
+<ol>
   <li> Download the pre-trained model from the following google drive links and place it into SPEC-CGAN directory</li>
   
   ```
@@ -64,7 +64,9 @@ CGAN, to remove specularity from face images. Spec-CGAN is the first use of GANs
    ```
    CUDA_VISIBLE_DEVICES=0 python SPEC_CGAN_main.py --dataset_dir=spec2diff --phase=test --which_direction=AtoB
   ```  
-</ul>
+  <li> If you want to run the model for your own images, then keep your images in ./Dataset/testA/ folder and run the command in sep no 2. </li>
+  
+</ol>
   
 ## Citetation of face from testA
 Please cite only the faces with following names in your paper.
