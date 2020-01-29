@@ -8,7 +8,9 @@ I also introduce two deep learning models, namely Spec-Net (Will be uppload soon
 CGAN, to remove specularity from face images. Spec-CGAN is the first use of GANs for removing specularity from images, specifically face images. I test different variations of the GAN approach namely Simple-GAN, Spec-CGAN, Cycle-GAN-SSIM, Cycle-GAN-and-SSIM, and Cycle-GAN-Per-loss, and I find that Spec-CGAN performs better than other variations and consider it for further evaluation.
 
 <ul>
-  <li> The dataset (Spec-Face) avalible free only for research purpose and not for commercial use </li>
+  <li> The dataset (Spec-Face) avalible free only for non-commercial research and education purposes </li>
+  <li> Any portion thereof, will not be copied, sold, traded or exploited for any commercial purposes </li>
+  
   <li> No one is allowed to edit the dataset </li>
 </ul>
 
@@ -37,7 +39,11 @@ CGAN, to remove specularity from face images. Spec-CGAN is the first use of GANs
 ```
 ## Train
 <ul>
-  <li> Download a dataset (The google drive link will provide soon): </li>
+  <li> Download the dataset (datasets.tar.gz) from the follwoing google drive link, extract and place it into SPEC-CGAN directory. </li>
+  
+  ```
+  https://drive.google.com/drive/u/1/folders/1ikWkAmdGN2d_MAhzRGvLkFNWLhzFHS1o
+  ```
   
   <li> Train a model: </li>
   
@@ -53,10 +59,10 @@ CGAN, to remove specularity from face images. Spec-CGAN is the first use of GANs
 
 ## Test the model
 <ol>
-  <li> Download the pre-trained model from the following google drive links and place it into SPEC-CGAN directory</li>
+  <li> Download the pre-trained model (checkpoint.tar.gz) from the following google drive links, extract and place it into SPEC-CGAN directory</li>
   
   ```
-   https://drive.google.com/drive/folders/15zJ5RCD_03FXgxQXYJkyeATBsYvnAawR
+   https://drive.google.com/drive/u/1/folders/1ikWkAmdGN2d_MAhzRGvLkFNWLhzFHS1o
   ```
   
   <li> Run the follwoing command </li>
@@ -80,5 +86,6 @@ Please cite only the faces with following names in your paper.
 
 ## Reference
 <ul>
-  <li> Muhammad, S., Dailey, M. N., Farooq, M., Majeed, M. F., & Ekpanyapong, M. (2019). Spec-Net and Spec-CGAN: Deep learning models for specularity removal from faces. Image and Vision Computing, Volume(39), 103823.</li>
+  <li> Muhammad, S., Dailey, M. N., Farooq, M., Majeed, M. F., & Ekpanyapong, M. (2019). Spec-Net and Spec-CGAN: Deep learning models for specularity removal from faces. Image and Vision Computing, Volume(39), 103823.
+  https://www.sciencedirect.com/science/article/pii/S0262885619304160 </li>
 </ul>
