@@ -44,8 +44,12 @@ CGAN, to remove specularity from face images. Spec-CGAN is the first use of GANs
   ```
   https://drive.google.com/drive/u/1/folders/1ikWkAmdGN2d_MAhzRGvLkFNWLhzFHS1o
   ```
-  
-  <li> Train a model: </li>
+  <li> Download the dataset (spec2diff_with_mask.zip) with specular mask from the follwoing google drive link, extract and place it into SPEC-CGAN/datasets directory </li>
+```
+https://drive.google.com/file/d/1n3z4FP57rly--VHocptRldaOAXRvrlxE/view?usp=sharing
+
+```
+<li> Train a model: </li>
   
   ```
    CUDA_VISIBLE_DEVICES=0 python SPEC_CGAN_main.py --dataset_dir=spec2diff
