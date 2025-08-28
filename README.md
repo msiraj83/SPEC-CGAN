@@ -79,6 +79,7 @@ https://drive.google.com/file/d/1n3z4FP57rly--VHocptRldaOAXRvrlxE/view?usp=shari
 </ol>
   
 ## Citetation of face from testA
+
 Please cite only the faces with following names in your paper.
 <ul>
   <li>Chaphan_*.png </li>
@@ -89,6 +90,7 @@ Please cite only the faces with following names in your paper.
 </ul>
 
 ## Reference
+
 <ul>
   <li> Muhammad, S., Dailey, M. N., Farooq, M., Majeed, M. F., & Ekpanyapong, M. (2019). Spec-Net and Spec-CGAN: Deep learning models for specularity removal from faces. Image and Vision Computing, Volume(39), 103823.
   https://www.sciencedirect.com/science/article/pii/S0262885619304160 </li>
